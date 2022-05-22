@@ -1,0 +1,45 @@
+.recruit {
+  width: 100%;
+}
+
+.recruit__ttl {
+  font-size: 24px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 50px 0 0 0;
+  padding-bottom: 10px
+}
+
+.recruit__ttl-main {
+  padding: 20px 0;
+}
+
+.recruit__box {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.recruit__group {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.recruit__group:last-child{
+  border-bottom: 1px solid black;
+}
+
+.recruit__group-ttl {
+  background: rgb(218, 218, 218);
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 0px;
+}
+
+.recruit__group-detail {
+  font-size: 16px;
+  text-align: left;
+  padding: 15px 0 0 15px;
+  border-left: 1px solid black;
+}

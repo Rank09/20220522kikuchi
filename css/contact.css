@@ -1,0 +1,34 @@
+.cont {
+  margin-top: 50px;
+}
+
+.cont__item {
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.cont__blank {
+  width: 100%;
+  padding: 6px;
+  opacity: 0.5;
+}
+
+.cont__blank-textarea {
+  width: 100%;
+  height: 100px;
+  opacity: 0.5;
+}
+
+.cont__btn {
+  width: 300px;
+  margin: 0px auto 50px;
+  display: block;
+  font-weight: bold;
+  height: 40px;
+  color: white;
+  background: black;
+  line-height: 0px;
+  padding: 15px;
+}
