@@ -50,15 +50,14 @@ a {
 .header__menu {
   display: flex;
   font-size: 14px;
-  margin: auto;
 }
 
 .header__menu-list {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .header__menu-list:last-child {
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .menu {
@@ -151,6 +150,10 @@ a {
   font-size: 14px;
   font-weight: 100;
   margin-top: 20px;
+}
+
+.contact__tag {
+  color: white;
 }
 
   @media screen and (max-width: 768px) {

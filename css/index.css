@@ -4,33 +4,32 @@ a {
   color: initial;
 }
 
+.index {
+  width: 100%;
+}
+
 .index__mv {
   width: 100%;
   height: 80vh;
-}
-
-.index__mv__img {
-  width: 100%;
-  height: 80vh;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/mv.png) center / cover;
 }
 
 .index__mv__main {
-  position: absolute;
-  top: 40%;
-  left: 25%;
   font-size: 48px;
   font-weight: bold;
   color: white;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .index__mv__sub {
-  position: absolute;
-  top: 50%;
-  left: 35%;
   font-size: 22px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 
 .box {
@@ -181,6 +180,10 @@ width: 85%;
   height: auto;
 }
 
+.blog__box-img:hover {
+  opacity: 0.7;
+}
+
 .blog__list {
   width: 100%;
   display: flex;
@@ -203,9 +206,15 @@ width: 85%;
 
 .blog__box-main {
   font-weight: bold;
-
 }
 
+.blog__box-main:hover {
+  opacity: 0.7;
+}
+
+.blog__tag {
+  color: white;
+}
 
 .company {
   display: flex;
@@ -245,7 +254,6 @@ width: 85%;
   font-size: 24px;
   transform: translate(-50%, -50%);
 }
-
 
 
 @media screen and (max-width: 768px) {

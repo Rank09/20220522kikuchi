@@ -10,6 +10,10 @@
   height: auto;
 }
 
+.blog__box-img:hover {
+  opacity: 0.7;
+}
+
 .blog__list {
   width: 100%;
   display: flex;
@@ -34,6 +38,10 @@
 .blog__box-main {
   font-weight: bold;
   font-size: 20px;
+}
+
+.blog__box-main:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {
