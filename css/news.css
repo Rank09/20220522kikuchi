@@ -9,8 +9,8 @@
 }
 
 .news__box:hover {
-  background: #dafdff;
   transition: 0.5s;
+  opacity: 0.5;
 }
 
 .news__box-text {

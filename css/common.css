@@ -120,6 +120,7 @@ a {
 
 .footer__menu-list:last-child {
   border: none;
+  margin-right: 50px;
 }
 
 .footer__tag {
